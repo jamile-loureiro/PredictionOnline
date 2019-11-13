@@ -23,13 +23,24 @@ body {
 
 .ordem-das-cartas {
     position: absolute  ;
-    width: 13%;
+    width: 5%;
     height: 50%;
     margin: 0 auto;
-    top: 2%;
-    left: 30%;
+    top: 1%;
+    left: 85%;
     font-family: Neucha;
-    font-size: 180%;
+    font-size: 130%;
+}
+
+.pontuacao {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    top: 1%;
+    left: 3%;
+    font-family: Neucha;
+    font-size: 130%;
 }
 
 .menu-inferior {
@@ -37,7 +48,7 @@ body {
     width: 70%;
     height: 20%;
     margin: 0 auto;
-    bottom: 0px;
+    bottom: 0%;
     right: 0px;
     background-image: url("../images/menubaixo.png");
     background-repeat: no-repeat;
@@ -53,10 +64,55 @@ body {
     margin: 0 auto;
     bottom: 0px;
     left: 16%;
+    margin: 0 auto;
 
 }
 
 .carta-forte img {
-    height: 100% ;
+    height: 99% ;
+    width: 99%;
+    margin: 0 auto;
+}
+
+.chat {
+    position: absolute;
+    width: 99.9%;
+    height: 45%;
+    background-color: grey;
+    bottom: 0px;
+    margin: 0 auto;   
+
+}
+
+.opcoes-jogo {
+    position: absolute;
+    height: 95%;
+    top: 5%;
+    right: 20%;
+    margin: 0 auto;
+    bottom: 0%;
+}
+
+.botao-principal {
     width: 100%;
+    height:  40%;
+    color:  red;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+select {
+    width: 100%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.opcoes {
+    position: absolute;
+    height: 50%;
+    width: 15%;
+    top: 5%;
+    right: 0;
+    margin-right: 3%;
+
 }

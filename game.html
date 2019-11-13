@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,48 @@
   <link rel="stylesheet" href="./css/main.css">
   <title>Prediction</title>
 </head>
+
 <body class="game">
   <div class="menu-lateral">
     <div class="ordem-das-cartas">
-       <b> 3 <br> 2 <br> K <br> J <br> Q <br> 7 <br> 6 <br> 5 <br> 4 <br> A </b>
+      <b> 3 <br> 2 <br> K <br> J <br> Q <br> 7 <br> 6 <br> 5 <br> 4 <br> A </b>
+    </div>
+
+    <div class="pontuacao">
+     <b> Jogador a <br> x pontos <br>
+      Jogador b <br> y pontos <br>
+      Jogador c <br> z pontos <br>
+      Jogador d <br> w pontos </b>
+    </div>
+
+    <div class="chat">
+      <h1>chat</h1>
     </div>
   </div>
 
   <div class="menu-inferior">
-
+    <div class="opcoes-jogo">
+      <select name="ganhar">
+        <option value="">Irei ganhar...</option>
+        <option value="X-UA-Compatible">x</option>
+        <option value="y">y</option>
+        <option value="z">z</option>
+        <option value="w">w</option>
+        <option value="a">a</option>
+      </select> 
+      <button class="botao-principal" formaction="">Vamo nessa</button>
+    </div>
+    <div class="opcoes">
+        <button class="botao-principal" formaction="">Retornar</button>
+        <button class="botao-principal" formaction="">Música</button>
+        <button class="botao-principal" formaction="">Som</button>
+    </div>
   </div>
 
   <div class="carta-forte">
-    <img src="./images/carta.png">
+    <img src="./images/carta.png" alt="">
   </div>
 
 </body>
+
 </html>
